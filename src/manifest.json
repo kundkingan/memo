@@ -4,16 +4,16 @@
     "name": "Memo",
     "scope": "/memo",
     "display": "standalone",
-    "start_url": ".",
-    "short_name": "NF",
+    "start_url": "/memo",
+    "short_name": "MM",
     "icons": [
         {
-        "src": "assets/logo.png",
+        "src": "logo.png",
         "sizes": "256x256",
         "type": "image/png"
         },
         {
-        "src": "assets/logo-512.png",
+        "src": "logo-512.png",
         "sizes": "512x512",
         "type": "image/png"
         }
@@ -22,6 +22,8 @@
     "description": "",
     "orientation": "any",
     "background_color": "#3a1c8d",
-    "related_applications": [],
+    "related_applications": [{
+    "platform": "web"
+    }],
     "prefer_related_applications": false
 }
