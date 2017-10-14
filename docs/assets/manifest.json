@@ -4,8 +4,8 @@
     "name": "Memo",
     "scope": "/memo",
     "display": "standalone",
-    "start_url": "/",
-    "short_name": "NF",
+    "start_url": "/memo",
+    "short_name": "MM",
     "icons": [
         {
         "src": "assets/logo.png",
