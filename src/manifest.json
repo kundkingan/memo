@@ -1,11 +1,11 @@
 {
-    "dir": "ltr",
-    "lang": "en",
     "name": "Memo",
-    "scope": "/memo",
+    "short_name": "Memo",
+    "start_url": "/memo/",
     "display": "standalone",
-    "start_url": "/memo",
-    "short_name": "MM",
+    "theme_color": "#f27b00",
+    "background_color": "#3a1c8d",
+    "lang": "en-US",
     "icons": [
         {
         "src": "assets/logo-192.png",
@@ -23,10 +23,4 @@
         "type": "image/png"
         }
     ],
-    "theme_color": "#f27b00",
-    "description": "",
-    "orientation": "any",
-    "background_color": "#3a1c8d",
-    "related_applications": [],
-    "prefer_related_applications": false
 }
