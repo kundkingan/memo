@@ -4,4 +4,33 @@
 body, html {
 	margin: 0;
 	padding: 0;
+	width: 100%;
+	height: 100%
+}
+
+.mat-tab-body {
+	margin: 8px;
+	padding: 8px;
+}
+
+.mat-tab-body-wrapper {
+  min-width: 360px;
+	width: 40%;
+	margin: 0 auto;
+}
+
+.mat-tab-labels {
+	width: 40%;
+	min-width: 360px;
+	margin: 0 auto;
+}
+
+.mat-tab-label {
+	width: 100%!important;
+}
+
+@media (max-width: 600px) {
+	.mat-tab-labels {
+		width: 100%;
+	}
 }

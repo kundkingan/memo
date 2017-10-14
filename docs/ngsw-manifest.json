@@ -2,17 +2,17 @@
   "static": {
     "urls": {
       "https://kundkingan.github.io/memo/polyfills.8eba0ab53b5457105d75.bundle.js": "1e4779eb00ffdcce4c9f4f6f7ca69d60d101b2ab",
-      "https://kundkingan.github.io/memo/main.7e3d388f8a1f4e7c3c5a.bundle.js": "1d143930a32588127692a74776534f306d100a0e",
+      "https://kundkingan.github.io/memo/main.eb49e0bcdc6619841c05.bundle.js": "012b3d34fcdd6e23fcff5d95a63d65da3ed2d942",
       "https://kundkingan.github.io/memo/sw-register.6819cd2c5fa25470ecf2.bundle.js": "50d549edfbd188ed199d8d0b079afa593202e3ea",
-      "https://kundkingan.github.io/memo/vendor.b6e73b8fe4eb29087aeb.bundle.js": "16e2d2b386db55c1b552a77605b087b92312a67c",
-      "https://kundkingan.github.io/memo/inline.c05f3de8782d60f64a03.bundle.js": "0e3085b8ca259f2be5c60518fd14ac0541354009",
-      "https://kundkingan.github.io/memo/styles.f3a3003ab70d78aa2efc.bundle.css": "a7a29899517c21bd5204280030cc61525a2d98c4",
+      "https://kundkingan.github.io/memo/vendor.cf9f68b2fde2ff35ff97.bundle.js": "bbfb4467e2553371a1e6e1f27f265b2cb935f1ee",
+      "https://kundkingan.github.io/memo/inline.b994ed5a2c5835665e78.bundle.js": "13e3dcf60b573030dd4308e2cccb18a688657e79",
+      "https://kundkingan.github.io/memo/styles.6a88f2861b5fb1e39a02.bundle.css": "7cde9ac8fba9ab8fdeab6914d42bd077cb0fe273",
       "https://kundkingan.github.io/memo/assets/logo-192.png": "980ec9a4e49de8d6859ecc6495cb8a77c1f283f3",
-      "https://kundkingan.github.io/memo/assets/logo-512.png": "9a88437923f74515d02f683690a605512199df85",
       "https://kundkingan.github.io/memo/assets/logo-256.png": "dc5456746ed8e72be7544ca0110764c4185571a5",
+      "https://kundkingan.github.io/memo/assets/logo-512.png": "9a88437923f74515d02f683690a605512199df85",
       "https://kundkingan.github.io/memo/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
       "https://kundkingan.github.io/memo/manifest.json": "80992dbb09d1b1e4db002b0cfe8049e86a8b4dfa",
-      "https://kundkingan.github.io/memo/index.html": "878f689819c61f0a519f73f6008abbf53b9bef96"
+      "https://kundkingan.github.io/memo/index.html": "c00a936b36acc00496339955eaf63ee313d1c309"
     },
     "_generatedFromWebpack": true
   }
