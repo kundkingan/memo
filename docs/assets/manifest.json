@@ -4,7 +4,7 @@
     "name": "Memo",
     "scope": "/memo",
     "display": "standalone",
-    "start_url": "/index.html",
+    "start_url": "memo/index.html",
     "short_name": "NF",
     "icons": [
         {
