@@ -1,0 +1,24 @@
+.right {
+	position: absolute;
+	right: 0;
+  padding: 0 16px;
+}
+
+
+.add {
+	width: 100%;
+	max-width: 400px;
+	margin: 0 auto;
+	padding-top: 25px;
+	display: flex;
+}
+
+.mat-form-field {
+	width: 100%;
+	padding-right: 8px;
+}
+
+.button {
+	height: 40px;
+  padding-top: 10px;
+}

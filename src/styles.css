@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css"; 
-
+ 
 body, html {
 	margin: 0;
 	padding: 0;
@@ -14,9 +14,10 @@ body, html {
 }
 
 .mat-tab-body-wrapper {
-  min-width: 360px;
-	width: 40%;
+	width: 100%;
+  max-width: 500px;
 	margin: 0 auto;
+	padding: 8px;
 }
 
 .mat-tab-labels {
@@ -27,6 +28,14 @@ body, html {
 
 .mat-tab-label {
 	width: 100%!important;
+}
+
+.mat-list {
+  display: flex!important;
+}
+
+.mat-list-item-content {
+	padding: 0!important;
 }
 
 @media (max-width: 600px) {

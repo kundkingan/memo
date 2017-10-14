@@ -18,7 +18,7 @@ import { AlarmComponent } from './alarm/alarm.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

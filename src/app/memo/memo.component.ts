@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MemoComponent implements OnInit {
 
+	savedMemo = [
+		{ text: "123" },
+		{ text: "123" },
+		{ text: "123" },
+		{ text: "123" },
+	]
+	
   constructor() { }
 
   ngOnInit() {
