@@ -14,4 +14,11 @@
       // registration failed :(
       console.log('ServiceWorker registration failed2: ', err);
     });
-  }</script><link href="styles.f3a3003ab70d78aa2efc.bundle.css" rel="stylesheet"/></head><body><app-root></app-root><script type="text/javascript" src="inline.c05f3de8782d60f64a03.bundle.js"></script><script type="text/javascript" src="polyfills.8eba0ab53b5457105d75.bundle.js"></script><script type="text/javascript" src="sw-register.6819cd2c5fa25470ecf2.bundle.js"></script><script type="text/javascript" src="vendor.b6e73b8fe4eb29087aeb.bundle.js"></script><script type="text/javascript" src="main.7e3d388f8a1f4e7c3c5a.bundle.js"></script></body></html>
+  }
+  window.addEventListener("beforeinstallprompt", function(e) { 
+  	// log the platforms provided as options in an install prompt 
+	  console.log(e.platforms); // e.g., ["web", "android", "windows"] 
+	  e.userChoice.then(function(outcome) { 
+	    console.log(outcome); // either "installed", "dismissed", etc. 
+	  }, handleError); 
+	});</script><link href="styles.f3a3003ab70d78aa2efc.bundle.css" rel="stylesheet"/></head><body><app-root></app-root><script type="text/javascript" src="inline.c05f3de8782d60f64a03.bundle.js"></script><script type="text/javascript" src="polyfills.8eba0ab53b5457105d75.bundle.js"></script><script type="text/javascript" src="sw-register.6819cd2c5fa25470ecf2.bundle.js"></script><script type="text/javascript" src="vendor.b6e73b8fe4eb29087aeb.bundle.js"></script><script type="text/javascript" src="main.7e3d388f8a1f4e7c3c5a.bundle.js"></script></body></html>
