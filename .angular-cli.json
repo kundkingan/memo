@@ -1,12 +1,12 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "memo-pwa"
+    "name": "memo"
   },
   "apps": [
     {
       "root": "src",
-      "outDir": "dist",
+      "outDir": "docs",
       "assets": [
         "assets",
         "favicon.ico"
