@@ -20,26 +20,10 @@ body, html {
 	padding: 8px;
 }
 
-.mat-tab-labels {
-	width: 40%;
-	min-width: 360px;
-	margin: 0 auto;
-}
-
-.mat-tab-label {
-	width: 100%!important;
-}
-
 .mat-list {
   display: flex!important;
 }
 
 .mat-list-item-content {
 	padding: 0!important;
-}
-
-@media (max-width: 600px) {
-	.mat-tab-labels {
-		width: 100%;
-	}
 }

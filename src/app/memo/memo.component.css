@@ -1,9 +1,12 @@
+.list {
+  position: relative;
+}
+
 .right {
 	position: absolute;
 	right: 0;
   padding: 0 16px;
 }
-
 
 .add {
 	width: 100%;

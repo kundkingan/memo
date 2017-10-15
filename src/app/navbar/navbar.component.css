@@ -1,0 +1,32 @@
+nav {
+	background: #3f51b5;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+nav a {
+	color: #fff;
+}
+
+nav .center {
+	width: 30%;
+	min-width: 360px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.center a {
+	width: 100%;
+	font-size: 14px;
+  font-weight: 500;
+}
+
+.center a.active{
+  border-bottom: 2px solid #fff;
+}
+
+a.mat-raised-button.mat-primary {
+  box-shadow: 0 0 0 0;
+}
