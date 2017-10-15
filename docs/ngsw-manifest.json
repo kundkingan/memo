@@ -2,18 +2,18 @@
   "static": {
     "urls": {
       "https://kundkingan.github.io/memo/polyfills.8eba0ab53b5457105d75.bundle.js": "1e4779eb00ffdcce4c9f4f6f7ca69d60d101b2ab",
-      "https://kundkingan.github.io/memo/main.4e3c1bda2bc3faae902a.bundle.js": "f128dd73c497883e815c3501faa048e0ac866f98",
+      "https://kundkingan.github.io/memo/main.81b3407ca647ec583c8f.bundle.js": "f2a222a6cc84514bc0ed46a6711cf46319be8195",
       "https://kundkingan.github.io/memo/sw-register.6819cd2c5fa25470ecf2.bundle.js": "50d549edfbd188ed199d8d0b079afa593202e3ea",
       "https://kundkingan.github.io/memo/vendor.c8c4dc65888a9a199206.bundle.js": "8feb1998c9a39fefbaf7a6966750bf9dd906776e",
-      "https://kundkingan.github.io/memo/inline.50b5988c3b1d80cf0459.bundle.js": "adcadf3b5c5d023d40012dbf98e83cbda9f18134",
+      "https://kundkingan.github.io/memo/inline.44d1931edf1303082492.bundle.js": "43bd24e2ac3fcd0f92ef7acf6dcb48eed03d2696",
       "https://kundkingan.github.io/memo/styles.141cc3124edc2b1d6e12.bundle.css": "e4958fa789edc0e0b6332fa4be7e374e04f12872",
       "https://kundkingan.github.io/memo/assets/logo-512.png": "9a88437923f74515d02f683690a605512199df85",
-      "https://kundkingan.github.io/memo/assets/logo-192.png": "980ec9a4e49de8d6859ecc6495cb8a77c1f283f3",
       "https://kundkingan.github.io/memo/assets/logo-256.png": "dc5456746ed8e72be7544ca0110764c4185571a5",
+      "https://kundkingan.github.io/memo/assets/logo-192.png": "980ec9a4e49de8d6859ecc6495cb8a77c1f283f3",
       "https://kundkingan.github.io/memo/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
       "https://kundkingan.github.io/memo/manifest.json": "80992dbb09d1b1e4db002b0cfe8049e86a8b4dfa",
       "https://kundkingan.github.io/memo/service-worker.js": "8ca0c7bd886db5c5675b769f25f5e8d03b9472e2",
-      "https://kundkingan.github.io/memo/index.html": "a6d1da0c71278bb8dadfe87623204fb528195251"
+      "https://kundkingan.github.io/memo/index.html": "6a22d9c0b824715947bdf5566607b7a691059408"
     },
     "_generatedFromWebpack": true
   }

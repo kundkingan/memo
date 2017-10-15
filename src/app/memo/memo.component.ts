@@ -10,7 +10,7 @@ import { DataHandlerService } from '../_services/data-handler.service';
 export class MemoComponent implements OnInit {
 
 	memos = []
-	memo = "";
+	memo = '';
 	
   constructor(private dataHandlerService: DataHandlerService) {
   	this.dataHandlerService.initMemos();
