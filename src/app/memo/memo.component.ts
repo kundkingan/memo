@@ -7,16 +7,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MemoComponent implements OnInit {
 
-	savedMemo = [
+	memos = [
 		{ text: "123" },
-		{ text: "123" },
-		{ text: "123" },
-		{ text: "123" },
+		{ text: "1234" },
+		{ text: "1235" },
+		{ text: "1236" },
 	]
 	
   constructor() { }
 
   ngOnInit() {
+  }
+
+  addMemo() {
+
+  }
+
+  deleteMemo(i) {
+  	this.memos.splice(i, 1);
   }
 
 }
