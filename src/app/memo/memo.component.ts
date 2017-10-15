@@ -1,30 +1,33 @@
 import { Component, OnInit } from '@angular/core';
+import { DataHandlerService } from '../_services/data-handler.service';
 
 @Component({
   selector: 'app-memo',
   templateUrl: './memo.component.html',
-  styleUrls: ['./memo.component.css']
+  styleUrls: ['./memo.component.css'],
+  providers: [DataHandlerService]
 })
 export class MemoComponent implements OnInit {
 
-	memos = [
-		{ text: "123" },
-		{ text: "1234" },
-		{ text: "1235" },
-		{ text: "1236" },
-	]
+	memos = []
+	memo = "";
 	
-  constructor() { }
-
-  ngOnInit() {
+  constructor(private dataHandlerService: DataHandlerService) {
+  	this.dataHandlerService.initMemos();
+  	this.memos = this.dataHandlerService.getMemos();
   }
 
-  addMemo() {
+  ngOnInit() {}
 
+  addMemo(memo) {
+  	if (memo) { 
+      this.memos.push({text: memo});
+      this.dataHandlerService.saveMemos(this.memos); 
+    }
   }
 
   deleteMemo(i) {
   	this.memos.splice(i, 1);
+  	this.dataHandlerService.saveMemos(this.memos)
   }
-
 }

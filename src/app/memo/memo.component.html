@@ -12,11 +12,13 @@
 </div>
 
 <div class="add">
-	<mat-form-field class="example-full-width">
-	  <input matInput placeholder="Memo">
+	<mat-form-field>
+	  <input #newMemo matInput placeholder="Memo"
+	  	(keyup.enter)="addMemo(newMemo.value); newMemo.value='' ">
 	</mat-form-field>
+	<h1>{{memo}}</h1>
 	<div class="button">
-		<button mat-icon-button color="primary" (click)="addMemo()">
+		<button mat-icon-button color="primary" (click)="addMemo(newMemo.value); newMemo.value='' ">
 	    <mat-icon aria-label="Example icon-button with a heart icon">add</mat-icon>
 	  </button>
 	</div>
